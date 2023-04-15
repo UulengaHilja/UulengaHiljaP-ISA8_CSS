@@ -1,0 +1,115 @@
+/* GLOBAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #212529;
+  background-color: white;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+  font-size: 3.5rem;
+
+}
+
+header {
+  background-color:  #493f58;
+  padding: 20px 0;
+}
+.headernav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.headernav p {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.headernav nav {
+  width: 30%;
+}
+
+.headernav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headernav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.headernav ul li { 
+  list-style: none;
+}
+
+#introduction {
+  background-image: url(./images/hero-image2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .secintro p {
+font-size: 1.1rem;
+padding: 23px 0;
+ }
+
+.secintro button {
+  background-color:#ff0e83 ;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 13px 32px;
+
+  font-size: 0.875rem;
+  cursor: pointer;
+  letter-spacing: 1px
+}
+
+ #bodycontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr
+ }
+ .Tradition {
+  grid-column: 2/4;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
